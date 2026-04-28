@@ -30,7 +30,7 @@
       "rust-analyzer"
     ];
     mold.enable = true;
-    version = "1.85.0";
+    version = "1.95.0";
   };
 
   # https://devenv.sh/processes/
