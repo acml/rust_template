@@ -45,9 +45,11 @@
   '';
 
   enterShell = ''
-    hello
-    git --version
-    rustc --version
+    echo "🚀 Welcome to the Rust Development Environment!"
+    echo "   Rust:    $(rustc --version)"
+    echo "   Cargo:   $(cargo --version)"
+    echo ""
+    echo "💡 Run 'devenv tasks list'."
   '';
 
   # https://devenv.sh/tasks/
